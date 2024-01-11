@@ -1,0 +1,8 @@
+using AuctionSite.Web.ContributorEndpoints;
+
+namespace AuctionSite.Web.Endpoints.ContributorEndpoints;
+
+public class ContributorListResponse
+{
+  public List<ContributorRecord> Contributors { get; set; } = new();
+}
